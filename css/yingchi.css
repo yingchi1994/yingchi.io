@@ -1,0 +1,141 @@
+body{ 
+    text-align:center;
+    padding-bottom:50px;
+} 
+
+a{
+    text-decoration: none;
+}
+
+p{
+
+}
+
+
+
+/* 首页主体框 */
+.main
+{
+    /* line-height: 2rem; 行间距 */
+    text-align: center; 
+    width: 320px;
+    height: fit-content;
+    margin: auto;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+.main p
+{
+    font-size: 0.7rem;
+}
+
+.main a
+{
+    text-decoration: none;
+    /* color: #d81b60; */
+    color: #1982d8;
+
+}
+
+/* 主体框内头像 */
+.main .avatar
+{
+    width:90px;
+    border-radius: 50%;
+}
+
+#top-title
+{
+    margin-bottom: 2px;
+}
+
+#title
+{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+#intro{
+    margin-top: 20px;
+    text-align: center;
+    color: #a3a3a3;
+}
+
+/* 导航区 */
+.main .nav-grid{
+    display: grid;
+    grid-template-columns: 14% 18% 4% 25% 4% 21% 11%;
+    text-align: center;
+}
+
+.nav-grid .nav-subtitle{
+    font-size: 0.5rem;
+    color: #888888;
+
+}
+
+
+/* 首页导航按钮 */
+.main .nav-button
+{
+    margin: 25px 0 10px 0;
+}
+
+/* 首页导航按钮 */
+.main .nav-button a
+{
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+
+
+/* 社交图标区 */
+.main .link-icon
+{
+    margin-top: 20px;
+    height: 30px;
+}
+
+/* 社交图标区图标样式 */
+.main .link-icon img
+{
+    width: 20px;
+    margin: 5px;
+    /* height: 20px; */
+}
+
+#slogan{
+    margin: 10px;
+    font-size: 12px;
+}
+
+#footer
+{ 
+    color:#aaa;
+    font-size: 0.8rem;
+    text-align: center;
+    left:0px; 
+    bottom:0px; 
+    width:100%; 
+    height:40px; 
+
+    margin:2px 0 0 0;
+}
+#footer p
+{
+    margin:2px 0 0 0;
+}
+#footer a
+{
+    color: #7eabbe;
+}
+
